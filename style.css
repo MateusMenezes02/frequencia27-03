@@ -1,0 +1,97 @@
+/* HEADER */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --black--color: #000000;
+    --white--color: #fff;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom: 1px solid var(--black--color);
+}
+
+header logo{
+    font-size: 1.5rem;
+}
+
+#menu ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--black--color);
+}
+
+.signUpLink {
+    color: var(--white--color);
+    background-color: var(--black--color);
+    padding: 0.8rem;
+    border: 1px solid var(--black--color);
+    border-radius: 0.5rem;
+    transition: 0.4s;
+    font-weight: bold;
+    
+}
+
+.signUpLink:hover {
+    background-color: var(--white--color);
+    color: var(--black--color);
+
+}
+
+.bottomHr {
+    border-bottom: 1px solid var(--black--color);
+}
+
+/* HOME */
+
+#homeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#text {
+    width: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 1.3rem;
+}
+
+#text h1, #text a{
+margin: 0;
+}
+
+#text p {
+    margin-block: 1.5rem;
+}
+
+main .photo {
+    width: 35rem;
+}
+    
+main img{
+    width: 100%;
+}
